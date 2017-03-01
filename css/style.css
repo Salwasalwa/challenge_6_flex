@@ -1,3 +1,4 @@
+
 * {
     margin: ;
     padding: ;
@@ -36,6 +37,10 @@ h3 {
     color: #2A2A2A;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
+}
+
+p{
+    line-height: 1.5em;
 }
 #menu ul {
     display: flex;
