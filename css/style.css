@@ -6,7 +6,7 @@ body {
     background-image: url("../images/fond.png");
     color: #525252;
     font-size: 1em;
-    font-family: 
+    font-family:
 }
 
 header {
@@ -20,19 +20,22 @@ h1 {
     font-size: 4em;
     font-family: Oswald;
     text-transform: uppercase;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
     margin: 0;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 h2 {
     font-size: 2em;
     color: #2A2A2A;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+
+
 }
 h3 {
-    /*color: #FF3002;*/
-    font-family: 'Open Sans', sans-serif;
+    color: #2A2A2A;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
 }
 #menu ul {
     display: flex;
@@ -68,6 +71,7 @@ header img {
 
 section {
     display: flex;
+    align-items: baseline;
 }
 article {
     padding: 1em;
@@ -80,17 +84,32 @@ article {
 
 .fondArticle img {
     float: left;
-    margin: 3em 1em 0 1em;
+    margin: 11% 10% 0 0;
+    padding: 0;
 }
 
 .fondArticle p {
-    margin-left:  186px;
+    margin-left:  54%;
+}
+
+.fondArticle h2 {
+    font-weight: 300;
+    /*margin-top: 8%;*/
+    margin-left: 54%;
+    margin-top: 10%;
+    padding: 0;
 }
 
 main h2 {
     text-transform: uppercase;
+    margin: 0;
 }
-
+main h3{
+    margin: 0;
+    padding-bottom: 1em;
+    font-weight: bold;
+    font-size: 1.5em !important;
+}
 div div:nth-child(1){
 
     width: 50%;
@@ -112,7 +131,7 @@ div div:nth-child(3){
 }
 
 div div:nth-child(2) article {
-    border-bottom: 1px solid #525252;
+    border-bottom: 1px solid #dbdbdb;
 
 }
 
@@ -123,7 +142,7 @@ div div:nth-child(2) article:nth-child(4){
 main h3{
     font-size: 2em;
     text-transform: uppercase;
-    color: red;
+    color: #FF3002;
 }
 
 main p {
@@ -143,7 +162,7 @@ div article ul{
 
 div article li {
     padding: 1em 0;
-    border-bottom: 1px solid #525252;
+    border-bottom: 1px solid #dbdbdb;
 }
 
 div article li:last-child {
@@ -159,6 +178,7 @@ div article li:last-child {
 }
 #baseline {
     background-image: url("../images/fond-article.png");
+
 }
 
 #baseline article:first-child {
@@ -167,23 +187,36 @@ div article li:last-child {
 }
 #baseline article:first-child p {
     background-image: url("../images/fond.png");
-    margin: 1em;
     padding: 1em;
+    margin-bottom: 0;
 }
 #baseline article:first-child h3 {
-    margin: 1em;
+    margin: 0;
+    padding: 1em 1em;
+    background-image: url("../images/fond.png");
 }
 
 #baseline article:nth-child(2){
     width: 50%;
 }
 
-#baseline article:nth-child(2) article{
-    border-top: 1px solid #525252;
-    border-bottom: 1px solid #525252;
+#baseline .line {
+    border-top: 1px solid #bdbdbd;
+    padding-top: 1em;
+}
+
+#baseline .line {
+    border-top: 1px solid #bdbdbd;
+    /*border-bottom: 1px solid #525252;*/
 }
 #baseline article:nth-child(4) {
     margin-right: 2em;
+    width: 40%;
+}
+
+#baseline h2{
+    text-transform: uppercase;
+    font-weight: 200;
 }
 
 
