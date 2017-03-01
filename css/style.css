@@ -2,6 +2,12 @@
     margin: ;
     padding: ;
 }
+body {
+    background-image: url("../images/fond.png");
+    color: #525252;
+    font-size: 1em;
+    font-family: 
+}
 
 header {
     background-image: url("../images/header.png");
@@ -11,25 +17,33 @@ header {
 
 h1 {
     color: white ;
-    font-size: 3em;
+    font-size: 4em;
     font-family: Oswald;
     text-transform: uppercase;
     padding-bottom: 1em;
     margin: 0;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 h2 {
     font-size: 2em;
+    color: #2A2A2A;
+    font-family: 'Open Sans', sans-serif;
 }
-
+h3 {
+    /*color: #FF3002;*/
+    font-family: 'Open Sans', sans-serif;
+}
 #menu ul {
     display: flex;
     justify-content: center;
     align-items: ;
     list-style-type: none;
     background-color: #52aae5;
-    height: 4em;
+    min-height: 4em;
     line-height: 4em;
+    /*font-size: 1.5em;*/
+    font-family: 'Abel', sans-serif;
 }
 #menu a {
     text-decoration: none;
@@ -50,9 +64,7 @@ header img {
     width: 100%;
 }
 
-body {
-    background-image: url("../images/fond.png");
-}
+
 
 section {
     display: flex;
@@ -79,18 +91,63 @@ main h2 {
     text-transform: uppercase;
 }
 
+div div:nth-child(1){
+
+    width: 50%;
+    margin-left: 2%;
+}
+
+div div:nth-child(1) img{
+
+    width: 90%;
+}
+
+div div:nth-child(2){
+    width: 25%;
+    margin-right: 2%;
+}
+
+div div:nth-child(3){
+    margin-right: 2%;
+}
+
+div div:nth-child(2) article {
+    border-bottom: 1px solid #525252;
+
+}
+
+div div:nth-child(2) article:nth-child(4){
+    border-bottom: none;
+}
+
 main h3{
     font-size: 2em;
     text-transform: uppercase;
     color: red;
 }
 
+main p {
+    width: 85%;
+}
 button {
     background-color: #ff3d00;
     border: none;
     color: white !important;
     border-radius: 2px;
     padding: 0.5em 1.5em;
+}
+
+div article ul{
+    padding: 0;
+}
+
+div article li {
+    padding: 1em 0;
+    border-bottom: 1px solid #525252;
+}
+
+div article li:last-child {
+    border-bottom: none;
 }
 
 .mainarticles {
@@ -103,6 +160,33 @@ button {
 #baseline {
     background-image: url("../images/fond-article.png");
 }
+
+#baseline article:first-child {
+    width: 50%;
+    margin: 1em;
+}
+#baseline article:first-child p {
+    background-image: url("../images/fond.png");
+    margin: 1em;
+    padding: 1em;
+}
+#baseline article:first-child h3 {
+    margin: 1em;
+}
+
+#baseline article:nth-child(2){
+    width: 50%;
+}
+
+#baseline article:nth-child(2) article{
+    border-top: 1px solid #525252;
+    border-bottom: 1px solid #525252;
+}
+#baseline article:nth-child(4) {
+    margin-right: 2em;
+}
+
+
 footer {
     background-image: url("../images/footer.png");
     margin: 0;

@@ -1,0 +1,62 @@
+@media  {
+
+    body {
+        width: 90%;
+        margin: auto;
+    }
+    header {
+        /*padding: 0;*/
+    }
+
+
+    #menu ul {
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+
+    }
+
+    #menu a{
+        padding: 0;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+
+    section article {
+        width: 90% !important;
+    }
+    .fondArticle article{
+        width: 80%;
+    }
+
+    .fondArticle p {
+        margin-left:  0.5em;
+    }
+    .mainarticles {
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+
+    .mainarticles div:first-child {
+        width: 100%;
+    }
+    .mainarticles div:nth-child(2) {
+        width: 40%;
+        padding: 0;
+    }
+    .mainarticles div:nth-child(3) {
+        width: 40%;
+        padding: 0;
+    }
+    #baseline article{
+        width: 100%;
+        margin: 1em;
+        padding: 0;
+    }
+
+
+}
